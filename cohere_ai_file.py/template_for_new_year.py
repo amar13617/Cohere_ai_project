@@ -1,10 +1,10 @@
 import cohere
 
-co = cohere.Client('AHDicrFO7YMJeBBposjKkGAz7Dxj34WSRcqUQyo6') 
+co = cohere.Client('MUuqoZhxXI2AwhpYRZppOD8FNPebgSyHbX7YADiZ') 
 
 response = co.generate(
   model='command',
-  prompt='create a template for a birthday :',
+  prompt='create a template for a new year :',
   max_tokens=42,
   temperature=0.9,
   k=0,
