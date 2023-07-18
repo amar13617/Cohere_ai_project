@@ -1,6 +1,6 @@
 import cohere
 
-co = cohere.Client('BZY3Z23n0BvI984Zf43VwLvpWbXXxprrAHYd5skS') # This is your trial API key
+co = cohere.Client('BZY3Z23n0BvI984Zf43VwLvpWbXXxprrAHYd5skS') 
 
 response = co.generate(
   model='command',
